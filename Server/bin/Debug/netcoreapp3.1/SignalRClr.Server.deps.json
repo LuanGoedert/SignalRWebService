@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_1"
     ],
-    "languageVersion": "",
+    "languageVersion": "8.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "SignalRClr.Server/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNet.SignalR.Client": "2.4.1",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "3.2.1",
           "SignalRClr.Client": "1.0.0",
           "SignalRClr.Shared": "1.0.0",
@@ -293,6 +294,20 @@
         },
         "compile": {
           "SignalRClr.Server.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.Client/2.4.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.dll": {
+            "assemblyVersion": "2.4.1.0",
+            "fileVersion": "2.4.1.19093"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/3.1.6": {
@@ -618,6 +633,17 @@
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.JSInterop.WebAssembly.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "System.ComponentModel.Annotations/5.0.0": {
@@ -2248,6 +2274,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.AspNet.SignalR.Client/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x5Bc1LkjBZV9GEjflBF0zsKgXbpFkTAArQMAdbhKKC1MopLaFPUYQZrCAPgGSAW8OudHGhyEfMZ5vJbdBu8IsA==",
+      "path": "microsoft.aspnet.signalr.client/2.4.1",
+      "hashPath": "microsoft.aspnet.signalr.client.2.4.1.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Authorization/3.1.6": {
       "type": "package",
       "serviceable": true,
@@ -2422,6 +2455,13 @@
       "sha512": "sha512-wYKx4YeBTnv1bzKZtdsWH0O9OmmYm7zq56QkKCUdl1hDg4Gn0lmCDfYBC0r1k5/Wh64IveuWwpkyTWjqCmp4pg==",
       "path": "microsoft.jsinterop.webassembly/3.2.1",
       "hashPath": "microsoft.jsinterop.webassembly.3.2.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
     "System.ComponentModel.Annotations/5.0.0": {
       "type": "package",

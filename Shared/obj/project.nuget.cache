@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XWsyX2xy+h9UFYwTDNF6QPH/KBPPrzthzi8JI+YkkQZ5KBXLBCwdTpcHkQtCung0wV9dOTb0il2kr6RFwdotgw==",
+  "dgSpecHash": "VwCI7FzZxHnTv8M45/9BUxB7s9AYM2GefwRR21BhndK/0c8roklG+7/NQ0KER5xRfgekVo3brL2HeH0zGbGpBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Shared\\SignalRClr.Shared.csproj",
+  "projectFilePath": "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Shared\\SignalRClr.Shared.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\luan_\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\104781\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

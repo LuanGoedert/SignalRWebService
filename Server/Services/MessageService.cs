@@ -1,26 +1,26 @@
-﻿using System;
+﻿using Microsoft.AspNet.SignalR.Client;
+using Microsoft.AspNetCore.SignalR.Client;
+using SignalRClr.Shared;
 using System.Collections.Generic;
-using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
+using HubConnection = Microsoft.AspNetCore.SignalR.Client.HubConnection;
 
 namespace SignalRClr.Server.Services
 {
     public class MessageService
     {
-        private HubConnection _hubConnection;
-        private List<Message> _messages = new List<Message>();
-        private Message _message = new Message();
+        public HubConnection _hubConnection;
+        public List<Message> _messages = new List<Message>();
+        public Message _message = new Message();
 
-        protected override async Task OnInitializedAsync()
+        public async Task OnInitializedAsync()
         {
-            _hubConnection = new HubConnectionBuilder()
-                .WithUrl(NavigationManager.ToAbsoluteUri("/messageHub"))
-                .Build();
+            _hubConnection = new HubConnectionBuilder().Build();
 
             _hubConnection.On<Message>("ReceiveMessage",
                 (message) => {
                     _messages.Add(message);
-                    StateHasChanged();
                 });
             await _hubConnection.StartAsync();
         }
