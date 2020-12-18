@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Server\\SignalRClr.Server.csproj": {}
+    "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Server\\SignalRClr.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Client\\SignalRClr.Client.csproj": {
+    "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Client\\SignalRClr.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Client\\SignalRClr.Client.csproj",
+        "projectUniqueName": "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Client\\SignalRClr.Client.csproj",
         "projectName": "SignalRClr.Client",
-        "projectPath": "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Client\\SignalRClr.Client.csproj",
-        "packagesPath": "C:\\Users\\104781\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Client\\obj\\",
+        "projectPath": "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Client\\SignalRClr.Client.csproj",
+        "packagesPath": "C:\\Users\\luan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Client\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\104781\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,14 +22,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.havan.com.br/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Shared\\SignalRClr.Shared.csproj": {
-                "projectPath": "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Shared\\SignalRClr.Shared.csproj"
+              "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Shared\\SignalRClr.Shared.csproj": {
+                "projectPath": "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Shared\\SignalRClr.Shared.csproj"
               }
             }
           }
@@ -80,24 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Server\\SignalRClr.Server.csproj": {
+    "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Server\\SignalRClr.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Server\\SignalRClr.Server.csproj",
+        "projectUniqueName": "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Server\\SignalRClr.Server.csproj",
         "projectName": "SignalRClr.Server",
-        "projectPath": "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Server\\SignalRClr.Server.csproj",
-        "packagesPath": "C:\\Users\\104781\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Server\\obj\\",
+        "projectPath": "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Server\\SignalRClr.Server.csproj",
+        "packagesPath": "C:\\Users\\luan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Server\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\104781\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,17 +98,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.havan.com.br/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Client\\SignalRClr.Client.csproj": {
-                "projectPath": "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Client\\SignalRClr.Client.csproj"
+              "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Client\\SignalRClr.Client.csproj": {
+                "projectPath": "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Client\\SignalRClr.Client.csproj"
               },
-              "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Shared\\SignalRClr.Shared.csproj": {
-                "projectPath": "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Shared\\SignalRClr.Shared.csproj"
+              "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Shared\\SignalRClr.Shared.csproj": {
+                "projectPath": "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Shared\\SignalRClr.Shared.csproj"
               }
             }
           }
@@ -152,24 +144,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Shared\\SignalRClr.Shared.csproj": {
+    "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Shared\\SignalRClr.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Shared\\SignalRClr.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Shared\\SignalRClr.Shared.csproj",
         "projectName": "SignalRClr.Shared",
-        "projectPath": "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Shared\\SignalRClr.Shared.csproj",
-        "packagesPath": "C:\\Users\\104781\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\104781\\source\\repos\\SignalR.WebService\\SignalRClr\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Shared\\SignalRClr.Shared.csproj",
+        "packagesPath": "C:\\Users\\luan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luan_\\Source\\Repos\\SignalRWebService\\Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\104781\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -177,8 +166,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.havan.com.br/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
@@ -193,6 +181,12 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -208,7 +202,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
