@@ -3,3 +3,12 @@ C:\Users\104781\source\repos\SignalR.WebService\SignalRClr\Shared\bin\Debug\nets
 C:\Users\104781\source\repos\SignalR.WebService\SignalRClr\Shared\obj\Debug\netstandard2.1\SignalRClr.Shared.csprojAssemblyReference.cache
 C:\Users\104781\source\repos\SignalR.WebService\SignalRClr\Shared\obj\Debug\netstandard2.1\SignalRClr.Shared.AssemblyInfoInputs.cache
 C:\Users\104781\source\repos\SignalR.WebService\SignalRClr\Shared\obj\Debug\netstandard2.1\SignalRClr.Shared.AssemblyInfo.cs
+C:\Users\luan_\Source\Repos\SignalRWebService\Shared\bin\Debug\netstandard2.1\SignalRClr.Shared.deps.json
+C:\Users\luan_\Source\Repos\SignalRWebService\Shared\bin\Debug\netstandard2.1\SignalRClr.Shared.dll
+C:\Users\luan_\Source\Repos\SignalRWebService\Shared\obj\Debug\netstandard2.1\SignalRClr.Shared.csprojAssemblyReference.cache
+C:\Users\luan_\Source\Repos\SignalRWebService\Shared\obj\Debug\netstandard2.1\SignalRClr.Shared.AssemblyInfoInputs.cache
+C:\Users\luan_\Source\Repos\SignalRWebService\Shared\obj\Debug\netstandard2.1\SignalRClr.Shared.AssemblyInfo.cs
+C:\Users\luan_\Source\Repos\SignalRWebService\Shared\bin\Debug\netstandard2.1\SignalRClr.Shared.pdb
+C:\Users\luan_\Source\Repos\SignalRWebService\Shared\obj\Debug\netstandard2.1\SignalRClr.Shared.csproj.CoreCompileInputs.cache
+C:\Users\luan_\Source\Repos\SignalRWebService\Shared\obj\Debug\netstandard2.1\SignalRClr.Shared.dll
+C:\Users\luan_\Source\Repos\SignalRWebService\Shared\obj\Debug\netstandard2.1\SignalRClr.Shared.pdb
